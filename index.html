@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Google</title>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  </head>
+  <body>
+
+    <img id="emilut" src="images/emilut.png">
+    <audio id="audio" src="images/emilut.mp3" type="audio/mp3"></audio>
+
+    <!-- WRAPPER -->
+    <div class="wrapper">
+
+        <div class="google-container">
+
+          <!-- GOOGLE HEADER -->
+          <header class="header">
+            <span><img class="ring" src="images/google-ring.png"></span>
+            <span><img class="portret" src="images/google-portret.png"></span>
+            <span><img class="menu" src="images/google-menu-grid.png"></span>
+          </header>
+
+          <!-- GOOGLE LOGO -->
+          <section class="google__logo">
+            <span class="google__g">G</span>
+            <span class="google__o">o</span>
+            <span class="google__o2">o</span>
+            <span class="google__g2">g</span>
+            <span class="google__l">l</span>
+            <span class="google__e">e</span>
+          </section>
+
+          <!-- GOOGLE INPUT -->
+          <section class="google__input">
+            <input class="google__input__inner"
+              type="text" name="google-search"
+                placeholder="Enter search terms or url"
+                  onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Enter search terms or url'"
+                      maxlength="80">
+          </section>
+
+          <!-- GOOGLE BUTTONS -->
+          <section class="google__buttons">
+            <button class="google--btn" type="button" name="button">Google Search</button>
+            <button class="google--btn" type="button" name="button">I'm Feeling Lucky</button>
+          </section>
+
+        </div><!--/container-->
+
+        <!-- GOOGLE FOOTER -->
+        <footer class="footer">
+
+          <section class="footer__left">
+            <span><a href="#">Advertising</a></span>
+            <span><a href="#">Business</a></span>
+            <span><a href="#">About</a></span>
+          </section>
+
+          <section class="footer__right">
+            <span><a href="#">Privacy</a></span>
+            <span><a href="#">Terms</a></span>
+            <span><a href="#">Settings</a></span>
+          </section>
+        </footer>
+
+    </div><!--/wrapper-->
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

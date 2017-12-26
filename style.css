@@ -1,0 +1,166 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  background: #F9F9F9;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+  text-align: center;
+  height: 100%;
+}
+
+.header {
+
+}
+
+.header span img {
+  height: 25px;
+  weight: 25px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.header span .menu{
+  top: 15px;
+  right: 20px;
+}
+
+.header span .portret {
+  top: 15px;
+  right: 55px;
+}
+
+.header span .ring {
+  top: 15px;
+  right: 90px;
+}
+
+.google-container {
+  margin-top: 160px;
+}
+
+.google__logo {
+  font-weight: bold;
+  font-size: 75px;
+  word-spacing: -19px;
+}
+
+
+.google__input {
+    margin: 25px auto;
+}
+
+.google__input__inner {
+  color: #666666;
+  height: 35px;
+  width: 550px;
+  border: 1px solid #f2f2f2;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 5px 25px;
+  font-weight: bold;
+  outline: none;
+  -webkit-box-shadow: 3px 10px 30px -2px rgba(84,143,245,0.26);
+  -moz-box-shadow: 3px 10px 30px -2px rgba(84,143,245,0.26);
+  box-shadow: 3px 10px 30px -2px rgba(84,143,245,0.26);
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+  background: url(images/google-mic.png) no-repeat scroll;
+  background-size: 25px;
+  background-position: 560px;
+}
+
+::placeholder {
+  color: #8c8c8c;
+}
+
+.google__mic {
+  border: 1px solid red;
+}
+
+.google__g {
+  color: #4885ed;
+  font-size: 86px;
+}
+.google__o {
+  color: #db3236;
+}
+
+.google__o2 {
+  color: #f4c20d;
+}
+
+.google__g2 {
+  color: #4885ed;
+}
+
+.google__l {
+  color: #3cba54;
+}
+.google__e {
+  color: #db3236;
+}
+
+.google__buttons {
+
+}
+
+.google--btn {
+  padding: 10px 30px;
+  outline: none;
+  border: none;
+  border-radius: 16px;
+  color: #8c8c8c;
+  background: transparent;
+  font-weight: bold;
+  border: 2px solid #e6e6e6;
+  transition: 150ms border;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.google--btn:hover {
+  border: 2px solid #d9d9d9;
+}
+
+.footer {
+  margin-top: 140px;
+  font-size: 12px;
+}
+
+.footer span {
+    margin: 0 10px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #4d4d4d;
+  transition: 150ms color;
+}
+
+.footer a:hover {
+  color: #1a1a1a;
+}
+
+.footer__left {
+  float: left;
+  margin-left: 30px;
+}
+
+.footer__right {
+  float: right;
+  margin-right: 30px;
+}
+
+#emilut {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999;
+  display: none;
+}
